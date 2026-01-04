@@ -1,0 +1,45 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.ide
+*.builds
+*.log
+
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# NuGet packages
+[Pp]ackages/
+*.nupkg
+*.nuget.log
+
+# Playnite specific (adjust if needed)
+*.pthm
+*.pthm.temp
+*.pthm.bak
+*.plog
+*.tmp
+
+# Custom artifacts
+library.json # The exported game data
+nuget.exe # The nuget executable I downloaded earlier
+
+# Debugging
+*.pdb
+*.vspdb
+*.resources
+
+# Installer files
+*.msi
+*.msp
+*.msm
+*.cab
+*.exe
+*.dll
+
+# OS generated files
+.DS_Store
+Thumbs.db

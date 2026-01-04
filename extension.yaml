@@ -1,0 +1,10 @@
+﻿Id: GameDataExporter_66b8eca4-3f39-4b79-a359-3cb98d5b18fd
+Name: Game Data Exporter
+Author: Nicode
+Version: 1.0
+Module: GameDataExporter.dll
+Type: GenericPlugin
+Icon: icon.png
+Links:
+  - Name: Github
+    Url: https://github.com/NicodeSS/GameDataExporter
