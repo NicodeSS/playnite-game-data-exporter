@@ -11,14 +11,10 @@ A Playnite plugin that exports your game library data to a JSON file and provide
 
 ## Installation
 
-As this plugin is under development, there is no official release package yet. You need to build it from source.
-
-1. **Clone the repository.**
-2. **Open the Solution:** Open the `GameDataExporter.sln` file in Visual Studio.
-3. **Build the Project:** Build the solution in `Release` mode.
-4. **Copy the Plugin Files:** Navigate to the `bin\Release` directory and copy all the generated files.
-5. **Paste into Playnite:** Paste the copied files into the `Extensions\GameDataExporter` directory inside your Playnite installation folder. If the `GameDataExporter` folder doesn't exist, create it.
-6. **Restart Playnite:** Restart Playnite to load the new plugin.
+1. Download the latest release from the [GitHub releases page](https://github.com/NicodeSS/playnite-game-data-exporter/releases/latest).
+2. The downloaded file will be in `.pext` format.
+3. To install, simply drag and drop the `.pext` file into the main Playnite window.
+4. Restart Playnite to load the new plugin.
 
 ## Usage
 
