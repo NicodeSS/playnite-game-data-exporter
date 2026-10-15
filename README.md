@@ -24,6 +24,10 @@ The `library.json` file is automatically created and updated in the plugin's dat
 
 The JSON file contains a list of all your games with detailed information, including game actions.
 
+Each game includes `Id`, the Playnite record GUID; `GameId`, the provider's game identifier; and `PluginId`, the GUID of the plugin responsible for that record. Compare `GameId` within its `PluginId` namespace when checking for duplicate identities. The export reads these SDK values directly and keeps the existing `library.json` path.
+
+The custom URI below continues to use the Playnite record `Id` as its `{gameId}` parameter.
+
 ### Custom URI
 
 To use the custom URI, you can create a shortcut or use a command line tool.
@@ -41,8 +45,8 @@ You can find the Game ID in Playnite by right-clicking a game > `Edit...` > `Inf
 
 ### Prerequisites
 
-- Visual Studio (with .NET desktop development workload)
-- .NET Framework 4.6.2 Developer Pack
+- Visual Studio (with `.NET` desktop development workload)
+- `.NET Framework 4.6.2` Developer Pack
 
 ### Steps
 
