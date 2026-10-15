@@ -34,6 +34,8 @@ namespace GameDataExporter
     public class GamePoco
     {
         public Guid Id { get; set; }
+        public string GameId { get; set; }
+        public Guid PluginId { get; set; }
         public string Name { get; set; }
         public string Source { get; set; }
         public ReleaseDate? ReleaseDate { get; set; }
@@ -93,6 +95,8 @@ namespace GameDataExporter
                 gamesOutput.Add(new GamePoco
                 {
                     Id = game.Id,
+                    GameId = game.GameId,
+                    PluginId = game.PluginId,
                     Name = game.Name,
                     Source = game.Source?.Name,
                     ReleaseDate = game.ReleaseDate,
